@@ -1,8 +1,7 @@
 <head>
-    {% if site.google_analytics %}
-        {% include googeanalytics.html %}
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
     {% endif %}
-    
     <title>{{ site.site_title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="k4p92PduVR_7ZqAlB8-OMnONNOl9GkkmUh4dlKfbY7o" />
@@ -18,4 +17,5 @@
     <link rel="stylesheet" href="assets/css/grid.css"/>
     <link rel="shortcut icon" href="docs/asstes/Owl_Logo.png" />
     <meta name="description" content="Portfolio - Jan-Ruben Schmid | Autonomous system, deep learning and robotics">
+
 </head>
