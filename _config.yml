@@ -1,0 +1,17 @@
+title: Jan-Ruben Schmid
+description: Robotics Software Engineer
+site_title: '@janschmid - Jan-Ruben Schmid'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+github_username: janschmid
+email: jschm20@student.sdu.dk
+
+# absolute or relative
+profile_picture: docs/asstes/Owl_Logo.png
+
+# Google Analytics ID
+google_analytics: 
