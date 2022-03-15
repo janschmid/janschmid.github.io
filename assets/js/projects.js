@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/janschmid/AnomalyDetectionDNN',
             title: ' Anomaly Detection using Deep Neural Networks and Image Processing for Ports',
             demo: false,
-            technologies: ['DNN, Python, Deepstream, Nvidia TAO'],
+            technologies: ['DNN', 'Python', 'Deepstream', 'Nvidia TAO'],
             description: "Master thesis, aim is to extend the autonommous inspection of quays with drones.",
             categories: ['featured', 'robotics', "DNN"]
         },
@@ -42,7 +42,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/janschmid/NextcloudSetupTutorial',
             title: 'Nextcloud setup tutorial for RockPi4',
             demo: false,
-            technologies: ['Linux, OpenVPN, Microsoft Azure'],
+            technologies: ['Linux', 'OpenVPN', 'Microsoft Azure'],
             description: "Guide which describes how to setup a Nextcloud server from scratch on a SBC (Single board computer) with a reverse proxy and encrypted communication",
             categories: ['featured', 'smarthome']
         },
@@ -87,7 +87,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}", style="color: blue">Demo</a>` : ''}</p>
                     </article>
 
                                 
