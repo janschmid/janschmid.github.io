@@ -29,6 +29,15 @@ let render_projects = (slug) => {
             categories: ['featured', 'robotics'],
         },
         {
+            link: 'https://github.com/janschmid/EIT',
+            image: 'assets/images/EIT_Drone.jpeg',
+            title: "Percision landing on Quick Connector system",
+            demo: false,
+            technologies: ['ROS', 'Python', 'Docker'],
+            description: "A visual approach for the precise landing on the connector is used and all the computations are performed on board on a Raspberry Pi 3B+. <a href=\"https://www.youtube.com/watch?v=hyc7kXy4a8c\", style=\"color: blue\">Indoor Demo</a>, <a href=\"https://www.youtube.com/watch?v=xp5y24glsds\", style=\"color: blue\">Simulation Demo</a>",
+            categories: ['featured', 'robotics'],
+        },
+        {
             image: 'assets/images/LUDO.png',
             link: 'https://github.com/janschmid/LudoPy',
             title: 'Reinforcement Learning in the Game of Ludo',
