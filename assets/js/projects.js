@@ -20,6 +20,15 @@ let render_projects = (slug) => {
             categories: ['featured', 'robotics', "DNN"]
         },
         {
+            link: 'https://github.com/janschmid/ParrotMinidroneCompetition',
+            image: 'assets/images/LineFollowing.png',
+            title: "Parrot Minidrone Competition",
+            demo: "https://youtu.be/kNiId2MReso",
+            technologies: ['Matlab', 'GNC', 'Computer Vision'],
+            description: "Real-time image based fedforward controller on a quadcopter. <a href=\"https://youtu.be/elezoPG-3co\", style=\"color: blue\">Presentation</a>,",
+            categories: ['featured', 'robotics'],
+        },
+        {
             image: 'assets/images/LUDO.png',
             link: 'https://github.com/janschmid/LudoPy',
             title: 'Reinforcement Learning in the Game of Ludo',
@@ -29,13 +38,13 @@ let render_projects = (slug) => {
             categories: ['featured', 'RL']
         },
         {
-            image: 'assets/images/smart-home.jpg',
-            link: 'https://github.com/janschmid/SmartHome',
-            title: 'SmartHome - OpenHAB, Logitech Media Server, Zigbee',
+            image: 'assets/images/output_vdeo_screenshot.png',
+            link: 'https://github.com/janschmid/DNN_Audio_Identity_Recognition',
+            title: "Which podcaster",
             demo: false,
-            technologies: ['Java, Linux'],
-            description: "OpenHAB configuration for Max2Play using Raspbee, HifiBerryAMP2 which allows multi-room audio control",
-            categories: ['smarthome']
+            technologies: ['PyTorch'],
+            description: "Neural Networks that can determine which host of a famous Danish podcast is speaking",
+            categories: ['DNN'],
         },
         {
             image: 'assets/images/Nextcloud_Logo.png',
@@ -49,11 +58,29 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/Sokobot.jpeg',
             link: 'https://github.com/janschmid/Sokoban',
-            title: 'Sokoban Robot',
+            title: 'Sokoban Robot and Solver',
             demo: "https://nextcloud.sdu.dk/index.php/s/bksip8BiFCMLmEm",
-            technologies: ['Python, C#'],
-            description: "Lego mindstorm robot which solves the Sokoban Quiz",
+            technologies: ['Python', 'C#'],
+            description: "A Sokoban puzzle robot and solver, using behaviour based design and informed search techniques.",
             categories: ['featured', 'robotics']
+        },
+        {
+            image: 'assets/images/MPC Plot.png',
+            link: 'https://github.com/NDurocher/MPC-Autonomous-Car',
+            title: 'MPC Controller for an Autonomous Car',
+            demo: 'https://youtu.be/Tbv2cbrF87Y',
+            technologies: ['MPC', 'MATLAB'],
+            description: "A time-horizon MPC controller for an autonomous car in MATLAB.",
+            categories: ['robotics']
+        },
+        {
+            image: 'assets/images/smart-home.jpg',
+            link: 'https://github.com/janschmid/SmartHome',
+            title: 'SmartHome - OpenHAB, Logitech Media Server, Zigbee',
+            demo: false,
+            technologies: ['Java', 'Linux'],
+            description: "OpenHAB configuration for Max2Play using Raspbee, HifiBerryAMP2 which allows multi-room audio control",
+            categories: ['smarthome']
         },
     ]
 
