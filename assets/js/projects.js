@@ -13,7 +13,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/anomalyDetection.jpg',
             link: 'https://github.com/janschmid/AnomalyDetectionDNN',
-            title: ' Anomaly Detection using Deep Neural Networks and Image Processing for Ports',
+            title: 'Real-Time On-Board autonomous inspection of Ports with UAVs',
             demo: false,
             technologies: ['DNN', 'Python', 'Deepstream'],
             description: "Master thesis, aim is to extend the autonommous inspection of quays with drones.",
