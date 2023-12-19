@@ -12,7 +12,7 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/anomalyDetection.jpg',
-            link: 'https://github.com/janschmid/AnomalyDetectionDNN',
+            link: 'https://github.com/janschmid/MasterThesis',
             title: 'Real-Time On-Board autonomous inspection of Ports with UAVs',
             demo: false,
             technologies: ['DNN', 'Python', 'Deepstream'],
